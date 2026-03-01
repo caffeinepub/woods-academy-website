@@ -1,0 +1,15 @@
+{
+  "frontend/src/pages/AchievementsPage.tsx": "Achievements page with updated stats (10+ years since 2015, 400+ students, 20+ qualified teachers, Nursery–8 classes) and principal Zishanul Haque mentioned in the pride section.",
+  "frontend/src/pages/GalleryPage.tsx": "Photo gallery page with category tabs (Events, Campus, Activities) displaying images from backend and static school photos.",
+  "frontend/src/pages/NewsPage.tsx": "News and announcements page showing latest updates from backend, important notices, upcoming events, holidays, and exam schedules.",
+  "frontend/src/pages/ContactPage.tsx": "Contact page with updated phone (+91 9861698249) and email (infowoodsacademy@gmail.com); principal section now shows initials avatar instead of a photo, keeping Zishanul Haque's name in text.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining blue/green/white palette for light and dark modes with custom accent-green color.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom colors including accent-green for the school's blue/green/white theme.",
+  "frontend/src/pages/AboutPage.tsx": "About page with school history, stats, values, milestone timeline, and principal's message section showing Zishanul Haque's name and initials avatar — no principal photo used.",
+  "frontend/src/pages/HomePage.tsx": "Home page with updated stats (10+ years, 400+ students, 20+ qualified teachers, Nursery–8 classes), correct address with pin code, principal name Zishanul Haque, and founding year 2015 throughout.",
+  "frontend/src/pages/AcademicsPage.tsx": "Academics page showing curriculum for Nursery–KG, Primary 1–5, and Middle 6–8, with \"Sanskrit/Urdu\" replaced by \"Urdu\" in both the Middle class subjects list and the Languages subjects overview card.",
+  "frontend/src/pages/AdmissionsPage.tsx": "Admissions page with class options only up to Class 8, updated address (Seraj Bhawan, Bhatti Road, Rourkela, Odisha – 769001), and principal name Zishanul Haque in the contact section.",
+  "frontend/src/pages/FacultyPage.tsx": "Faculty page with principal spotlight, department listings, teaching philosophy values, and a join-our-team section — \"Sanskrit/Urdu\" replaced by \"Urdu\" in the Languages department subjects list.",
+  "frontend/src/components/Footer.tsx": "Footer with updated Woods Academy shield logo (`/assets/image.png`), corrected phone number (+91 9861698249), corrected email (infowoodsacademy@gmail.com), address, quick links, school info, and caffeine.ai attribution.",
+  "frontend/src/components/Header.tsx": "Sticky navigation header with the Woods Academy shield logo (`/assets/image.png`), school name, and full nav links for desktop and mobile."
+}

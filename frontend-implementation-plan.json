@@ -1,0 +1,29 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Remove Sanskrit — keep only Urdu in languages/subjects",
+  "requirements": [
+    {
+      "id": "REQ-10",
+      "summary": "Remove Sanskrit from all site pages and components, leaving only Urdu and other subjects intact",
+      "acceptanceCriteria": [
+        "The word 'Sanskrit' does not appear anywhere on the site — in subject lists, language lists, curriculum sections, or any other context.",
+        "Urdu remains listed wherever it was previously shown alongside Sanskrit.",
+        "All other subjects and languages that were listed (apart from Sanskrit) are unchanged.",
+        "Changes are applied across all pages and components: AcademicsPage, FacultyPage, AboutPage, HomePage, and any other file that referenced Sanskrit."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/AcademicsPage.tsx",
+          "operation": "modify",
+          "description": "Remove 'Sanskrit' from the subjects array in the SubjectsSection component, leaving Urdu, English, Mathematics, Science, Social Studies, Computer Science, and Art & Craft."
+        },
+        {
+          "path": "frontend/src/pages/FacultyPage.tsx",
+          "operation": "modify",
+          "description": "Remove the 'Sanskrit' department entry from the departments array, leaving Urdu and all other subject departments unchanged."
+        }
+      ]
+    }
+  ]
+}

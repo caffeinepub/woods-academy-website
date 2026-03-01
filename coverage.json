@@ -1,0 +1,40 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-03-01T11:04:27.865Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-10",
+        "summary": "Find every place on the site where languages or subjects are listed and remove 'Sanskrit' entirely, leaving only 'Urdu' (and any other subjects that are not Sanskrit). This applies to all pages and components including AcademicsPage, FacultyPage, AboutPage, HomePage, and any other page or component that mentions Sanskrit.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/AcademicsPage.tsx",
+          "frontend/src/pages/FacultyPage.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/AcademicsPage.tsx",
+          "frontend/src/pages/FacultyPage.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/pages/AcademicsPage.tsx",
+    "frontend/src/pages/FacultyPage.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 9,
+  "summary": "School website project for WOODS ACADEMY. School established in 2015, located at Seraj Bhawan, Bhatti Road, Rourkela, Odisha, India - 769001. Offers classes up to Class 8, has 400 students, 20+ qualified teachers, and principal Zishanul Haque. Contact: +91 9861698249, infowoodsacademy@gmail.com. The school logo image was mistakenly used as the principal's picture and should be moved to logo placement.",
+  "architectural_notes": [
+    "School details: WOODS ACADEMY, est. 2015, address: Seraj Bhawan, Bhatti Road, Rourkela, Odisha, India - 769001, classes up to 8th, 400 students, 20+ qualified teachers, principal: Zishanul Haque",
+    "Contact details: phone +91 9861698249, email infowoodsacademy@gmail.com. The image provided is the school logo, not the principal's photo."
+  ],
+  "known_issues": [
+    "Principal's picture was not removed from the faculty page in the previous build"
+  ],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-update-the-school-address-across-all-pages-homepage-aboutpage-contactpage-footer-and-any-other-location-it-appears-to-seraj-bhawan-bhatti-road-rourkela-odisha-india-769001",
+      "title": "Update the school address across all pages (HomePage, AboutPage, ContactPage, Footer, and any other location it appears) to: Seraj Bhawan, Bhatti Road, Rourkela, Odisha, India – 769001.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-principal-s-name-zishanul-haque-to-the-website-display-it-in-the-aboutpage-e-g-in-the-school-history-or-leadership-section-and-optionally-in-the-footer-or-contactpage-where-relevant",
+      "title": "Add the principal's name 'Zishanul Haque' to the website. Display it in the AboutPage (e.g., in the school history or leadership section) and optionally in the Footer or ContactPage where relevant.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-all-occurrences-of-30-years-of-excellence-or-similar-legacy-copy-with-accurate-copy-reflecting-the-school-was-established-in-2015-approximately-10-years-of-excellence-update-the-founding-year-to-2015-everywhere-it-appears-including-homepage-hero-stats-cards-aboutpage-history-section-and-any-other-pages",
+      "title": "Replace all occurrences of '30+ years of excellence' (or similar legacy copy) with accurate copy reflecting the school was established in 2015 (approximately 10 years of excellence). Update the founding year to 2015 everywhere it appears, including HomePage hero/stats cards, AboutPage history section, and any other pages.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-teacher-staff-count-across-all-pages-homepage-stats-facultypage-statistics-aboutpage-and-any-other-occurrences-to-show-20-qualified-teachers-remove-references-to-150-staff-or-22-teachers-and-replace-with-20-qualified-teachers",
+      "title": "Update the teacher/staff count across all pages (HomePage stats, FacultyPage statistics, AboutPage, and any other occurrences) to show '20+ Qualified Teachers'. Remove references to '150+ staff' or '22 teachers' and replace with '20+ qualified teachers'.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-class-range-across-all-pages-academicspage-aboutpage-admissionspage-homepage-and-any-other-relevant-sections-to-reflect-that-the-school-offers-classes-up-to-class-8-not-class-7-or-senior-secondary-remove-references-to-classes-beyond-class-8-where-inaccurate",
+      "title": "Update the class range across all pages (AcademicsPage, AboutPage, AdmissionsPage, HomePage, and any other relevant sections) to reflect that the school offers classes up to Class 8 (not Class 7 or Senior Secondary). Remove references to classes beyond Class 8 where inaccurate.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-phone-number-to-91-9861698249-and-email-to-infowoodsacademy-gmail-com-across-all-pages-and-components-where-contact-details-appear-including-contactpage-footer-and-any-other-relevant-sections",
+      "title": "Update the phone number to '+91 9861698249' and email to 'infowoodsacademy@gmail.com' across all pages and components where contact details appear, including ContactPage, Footer, and any other relevant sections.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-any-principal-photo-image-from-the-website-aboutpage-leadership-section-or-any-other-page-do-not-display-a-photo-for-the-principal-only-the-principal-s-name-zishanul-haque-should-appear-in-text-form",
+      "title": "Remove any principal photo/image from the website (AboutPage leadership section or any other page). Do not display a photo for the principal — only the principal's name 'Zishanul Haque' should appear in text form.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-use-the-uploaded-woods-academy-shield-logo-image-woods-academy-logo-png-as-the-school-logo-throughout-the-site-in-the-header-footer-and-any-other-location-displaying-the-school-logo-save-it-as-a-static-asset-at-frontend-public-assets-generated-woods-academy-logo-png",
+      "title": "Use the uploaded Woods Academy shield logo image (woods-academy-logo.png) as the school logo throughout the site — in the Header, Footer, and any other location displaying the school logo. Save it as a static asset at 'frontend/public/assets/generated/woods-academy-logo.png'.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-any-principal-photo-or-image-element-from-facultypage-frontend-src-pages-facultypage-tsx-only-the-principal-s-name-zishanul-haque-should-appear-in-text-form-if-referenced-at-all-no-img-avatar-or-placeholder-image-should-be-rendered-for-the-principal-on-this-page",
+      "title": "Remove any principal photo or image element from FacultyPage (frontend/src/pages/FacultyPage.tsx). Only the principal's name 'Zishanul Haque' should appear in text form if referenced at all — no <img>, avatar, or placeholder image should be rendered for the principal on this page.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-find-every-place-on-the-site-where-languages-or-subjects-are-listed-and-remove-sanskrit-entirely-leaving-only-urdu-and-any-other-subjects-that-are-not-sanskrit-this-applies-to-all-pages-and-components-including-academicspage-facultypage-aboutpage-homepage-and-any-other-page-or-component-that-mentions-sanskrit",
+      "title": "Find every place on the site where languages or subjects are listed and remove 'Sanskrit' entirely, leaving only 'Urdu' (and any other subjects that are not Sanskrit). This applies to all pages and components including AcademicsPage, FacultyPage, AboutPage, HomePage, and any other page or component that mentions Sanskrit.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Add phone number +91 9861698249 and email infowoodsacademy@gmail.com to the website (contact page, footer, and any other relevant sections)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Remove the principal's picture from the website; the image provided is the school logo and should be used as such, not as the principal's photo",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Remove 'Sanskrit' from the languages/subjects listed on the site; keep only 'Urdu'",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "WOODS ACADEMY",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-find-every-place-on-the-site-where-languages-or-subjects-are-listed-and-remove-sanskrit-entirely-leaving-only-urdu-and-any-other-subjects-that-are-not-sanskrit-this-applies-to-all-pages-and-components-including-academicspage-facultypage-aboutpage-homepage-and-any-other-page-or-component-that-mentions-sanskrit",
+      "featureTitle": "Find every place on the site where languages or subjects are listed and remove 'Sanskrit' entirely, leaving only 'Urdu' (and any other subjects that are not Sanskrit). This applies to all pages and components including AcademicsPage, FacultyPage, AboutPage, HomePage, and any other page or component that mentions Sanskrit.",
+      "files": [
+        "frontend/src/pages/AcademicsPage.tsx",
+        "frontend/src/pages/FacultyPage.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

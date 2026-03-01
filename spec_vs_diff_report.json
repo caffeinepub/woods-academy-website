@@ -1,0 +1,25 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-03-01T11:04:27.862Z",
+  "summary": "The diff shows Sanskrit was removed and replaced with Urdu in AcademicsPage.tsx and FacultyPage.tsx. The file summaries confirm these two files had 'Sanskrit/Urdu' replaced by 'Urdu'. However, the diff does not show evidence of changes to AboutPage.tsx or HomePage.tsx, which are explicitly called out in REQ-10. The frontend-file-summaries.txt does not mention Sanskrit removal in AboutPage or HomePage, suggesting those files may not have contained Sanskrit references — but since the requirement explicitly calls them out, we cannot confirm full compliance without evidence.",
+  "missing_requirements": [
+    {
+      "id": "REQ-10",
+      "requirement": "Changes are applied across all pages and components: AcademicsPage, FacultyPage, AboutPage, HomePage, and any other file that referenced Sanskrit.",
+      "reason": "The diff only shows modifications to AcademicsPage.tsx and FacultyPage.tsx. AboutPage.tsx and HomePage.tsx are not listed as modified files. While it is possible those files never contained Sanskrit, REQ-10 explicitly requires verifying and applying changes to AboutPage and HomePage. No evidence in the diff confirms Sanskrit was checked or removed from those files.",
+      "evidence": [
+        "frontend/src/pages/AboutPage.tsx",
+        "frontend/src/pages/HomePage.tsx"
+      ]
+    }
+  ],
+  "hallucinated_features": [],
+  "confidence": 0.72,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/src/pages/AcademicsPage.tsx",
+    "frontend/src/pages/FacultyPage.tsx",
+    "project_state.json"
+  ]
+}
