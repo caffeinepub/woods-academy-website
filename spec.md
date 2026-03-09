@@ -1,10 +1,25 @@
-# Specification
+# Woods Academy Website
 
-## Summary
-**Goal:** Remove "Sanskrit" from every location on the site where languages or subjects are listed, leaving only "Urdu" and all other non-Sanskrit subjects intact.
+## Current State
+The website has a full backend with `getAllContacts()` and `getAllEnquiries()` query functions already implemented. The frontend has all school pages but no admin view to see submitted forms.
 
-**Planned changes:**
-- Remove "Sanskrit" from all subject and language lists in AcademicsPage, FacultyPage, AboutPage, HomePage, and any other page or component that references it.
-- Ensure "Urdu" remains listed wherever it previously appeared alongside Sanskrit.
+## Requested Changes (Diff)
 
-**User-visible outcome:** The word "Sanskrit" no longer appears anywhere on the site; all other subjects and languages remain unchanged.
+### Add
+- `/admin` route with a simple password-protected admin dashboard
+- Admin login screen (password: WoodsAdmin2024)
+- Two tabs: Contact Messages and Admission Enquiries
+- Table view of all submissions with name, email, subject/class, message, and date
+- `useGetAllContacts` and `useGetAllEnquiries` hooks in useQueries.ts
+
+### Modify
+- App.tsx: add adminRoute
+- useQueries.ts: add two new query hooks for fetching contacts and enquiries
+
+### Remove
+- Nothing
+
+## Implementation Plan
+1. Add `useGetAllContacts` and `useGetAllEnquiries` hooks to useQueries.ts
+2. Create AdminPage.tsx with password login + tabbed view of submissions
+3. Register `/admin` route in App.tsx
